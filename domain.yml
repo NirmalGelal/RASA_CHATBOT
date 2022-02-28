@@ -1,0 +1,88 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - ask_about_loan
+  - ask_for_home_loan
+  - ask_for_home_loan_charges
+  - ask_for_home_loan_eligible_sectors
+  - ask_for_home_loan_eligible_for
+  - ask_for_home_loan_types
+  - ask_for_student_loan
+  - ask_for_student_loan_charges
+  - ask_for_student_loan_eligible_sectors
+  - ask_for_student_loan_eligible_for
+  - ask_for_student_loan_types
+  - ask_for_protection_loan
+  - ask_for_protection_loan_charges 
+  - ask_for_protection_loan_eligible_sectors
+  - ask_for_protection_loan_eligible_for
+  - ask_for_protection_loan_types
+
+responses:
+  utter_greet:
+  - text: "Hey! How can I help you?"
+
+  utter_goodbye:
+  - text: "Bye, Stay safe!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_about_loan:
+  - text: "We do have three types of loan. They are Home Loan, Student Loan, Protection Loan."
+
+  utter_about_home_loan:
+  - text: "About Home Loan (From Nabil Bank):\nFor all of us, House is a symbol of stability and security and investment towards the future of our family. A place to call home is an unparalleled satisfaction and many of us work our entire life planning and carefully saving to own that dream into reality. Nabil Housing Loan will help you turn that dream into reality without you having to wait for a lifetime with an easy and quick loan facility tailored to the understanding of your emotion."
+
+  utter_home_loan_charges:
+  - text: "We do charge 8.8% interest on home loan."
+
+  utter_home_loan_eligible_sectors:
+  - text: "You are encouraged to use home loan if you have a property and willing to take home loan keeping it as collateral."
+
+  utter_home_loan_eligible_for:
+  - text: "This may solve your question\n\nHome Loan:\nAge:\t18-70 yrs\nIncome:\t>50k\nCredit Score:\tabove 750"
+
+  utter_home_loan_types:
+  - text: "Home Loan Types:\n1. Lorem Home loan\n2. Epsum Home Loan\n3. ABC Home Loan"
+
+  utter_about_student_loan:
+  - text: "About Student Loan (From Nabil Bank):\nFor all of us, House is a symbol of stability and security and investment towards the future of our family. A place to call home is an unparalleled satisfaction and many of us work our entire life planning and carefully saving to own that dream into reality. Nabil Housing Loan will help you turn that dream into reality without you having to wait for a lifetime with an easy and quick loan facility tailored to the understanding of your emotion."
+
+  utter_student_loan_charges:
+  - text: "We do charge 5% interest on student loan."
+
+  utter_student_loan_eligible_sectors:
+  - text: "You are encouraged to use student loan if you are a student and willing to take student loan for the support to the study."
+
+  utter_student_loan_eligible_for:
+  - text: "This may solve your question\n\nStudent Loan:\nAge:\t18-70 yrs\nIncome:\t>50k\nCredit Score:\tabove 750"
+
+  utter_student_loan_types:
+  - text: "Student Loan Types:\n1. Lorem Student loan\n2. Epsum Student Loan\n3. ABC Student Loan"
+
+  utter_about_protection_loan:
+  - text: "About Protection Loan (From Investopedia):\nLoan protection insurance is designed to help policyholders by providing financial support in times of need. Whether the need is due to disability or unemployment, this insurance can help cover monthly loan payments and protect the insured from default.\nThe loan protection policy goes by different names depending on where it is offered. In Britain, it is often referred to as accident sickness insurance, unemployment insurance, redundancy insurance, or premium protection insurance. These all provide very similar coverage. In the U.S. it is usually called payment protection insurance (PPI). The U.S. offers several forms of this insurance in conjunction with mortgages, personal loans, or car loans."
+  
+  utter_protection_loan_charges:
+  - text: "We do charge 7.5% interest on protection loan."
+
+  utter_protection_loan_eligible_sectors:
+  - text: "You are encouraged to use protection loan if lorem epsum abc def ghi satuatory protection, institutional protection."
+
+  utter_protection_loan_eligible_for:
+  - text: "This may solve your question\n\nProtection Loan:\nAge:\t18-70 yrs\nIncome:\t>50k\nCredit Score:\tabove 750"
+
+  utter_protection_loan_types:
+  - text: "Protection Loan Types:\n1. Lorem Protection loan\n2. Epsum Protection Loan\n3. ABC Protection Loan"
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,218 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_about_loan
+  examples: |
+    - can you provide me information about loan?
+    - loan
+    - info on loan
+    - information on loan
+    - please provide me information about loan
+    - can I take a loan?
+    - provide loan
+    - info about loan
+    - information about loan
+    - procedure on loan
+    - process of loan
+    - what are the procedure to take loan
+    - what are the process to take a loan
+    - I want to ask about loan
+    - I want loan
+
+- intent: ask_for_home_loan
+  examples: |
+    - home
+    - home please
+    - please home loan
+    - the home one
+    - home only
+    - home loan
+    - tell me about home loan
+
+- intent: ask_for_home_loan_charges
+  examples: |
+    - what are charges for home loan?
+    - charges of home loan
+    - home loan charges
+    - interest home loan
+    - how much you charge for home loan?
+    - tell me about charges for home loan
+
+- intent: ask_for_home_loan_eligible_sectors
+  examples: |
+    - what are the eligible sectors of home loan
+    - eligible sectors for home loan
+    - home loan eligible sectors
+    - tell me the eligible sectors for home loan
+    - how can I use home loan
+    - home loan purpose
+
+- intent: ask_for_home_loan_eligible_for
+  examples: |
+    - am I eligible for home loan?
+    - eligibility criteria for home loan
+    - eligibility home loan
+    - who are eligible to take home loan
+    - age for home loan
+    - income for home loan
+    - income required to home loan
+    - credit score for home loan
+    - what are the credit score for home loan
+
+- intent: ask_for_home_loan_types
+  examples: |
+    - types of home loan
+    - what are the types of home loan
+    - home loan type
+    - tell me about types of home loan
+
+
+- intent: ask_for_student_loan
+  examples: |
+    - student
+    - student loan
+    - student one
+    - student only
+    - please student loan
+    - the student loan
+    - tell me about student loan
+
+- intent: ask_for_student_loan_charges
+  examples: |
+    - what are charges for student loan?
+    - charges of student loan
+    - student loan charges
+    - interest student loan
+    - how much you charge for student loan?
+
+- intent: ask_for_student_loan_eligible_for
+  examples: |
+    - am I eligible for student loan?
+    - eligibility criteria for student loan
+    - eligibility student loan
+    - who are eligible to take student loan
+    - age for student loan
+    - income for student loan
+    - income required to student loan
+    - credit score for student loan
+    - what are the credit score for student loan
+
+- intent: ask_for_student_loan_eligible_sectors
+  examples: |
+    - what are the eligible sectors of student loan
+    - eligible sectors for student loan
+    - student loan eligible sectors
+    - tell me the eligible sectors for student loan
+    - how can I use student loan
+    - student loan purpose
+
+- intent: ask_for_student_loan_types
+  examples: |
+    - types of student loan
+    - what are the types of student loan
+    - student loan types   
+
+
+- intent: ask_for_protection_loan
+  examples: |
+    
+    - protection loan
+    - protection
+    - satutory protection loan
+    - institutional protection loan
+    - the protection loan
+    - tell me about protection loan
+    - protection only
+
+- intent: ask_for_protection_loan_charges
+  examples: |
+    - what are charges for protection loan?
+    - charges of protection loan
+    - protection loan charges
+    - interest protection loan
+    - how much you charge for protection loan?
+
+- intent: ask_for_protection_loan_eligible_for
+  examples: |
+    - am I eligible for protection loan?
+    - eligibility criteria for protection loan
+    - eligibility protection loan
+    - who are eligible to take protection loan
+    - age for protection loan
+    - income for protection loan
+    - income required to protection loan
+    - credit score for protection loan
+    - what are the credit score for protection loan
+  
+- intent: ask_for_protection_loan_eligible_sectors
+  examples: |
+    - what are the eligible sectors of protection loan
+    - eligible sectors for protection loan
+    - protection loan eligible sectors
+    - tell me the eligible sectors for protection loan
+    - how can I use protection loan
+    - protection loan purpose
+
+
+- intent: ask_for_protection_loan_types
+  examples: |
+    - types of protection loan
+    - what are the types of protection loan
+    - protection loan type  
+  

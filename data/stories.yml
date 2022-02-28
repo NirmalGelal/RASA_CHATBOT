@@ -1,0 +1,90 @@
+version: "3.0"
+
+stories:
+
+
+
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: loan
+  steps:
+  - intent: ask_about_loan
+  - action: utter_about_loan
+
+- story: home_loan
+  steps:
+  - intent: ask_for_home_loan
+  - action: utter_about_home_loan
+
+- story: home_loan_charges
+  steps:
+  - intent: ask_for_home_loan_charges
+  - action: utter_home_loan_charges
+
+- story: home_loan_eligible_sectors
+  steps:
+  - intent: ask_for_home_loan_eligible_sectors
+  - action: utter_home_loan_eligible_sectors
+
+- story: home_loan_eligible_for
+  steps:
+  - intent: ask_for_home_loan_eligible_for
+  - action: utter_home_loan_eligible_for
+
+- story:
+  steps:
+  - intent: ask_for_home_loan_types
+  - action: utter_home_loan_types
+
+- story: student_loan
+  steps:
+  - intent: ask_for_student_loan
+  - action: utter_about_student_loan
+
+- story: student_loan_charges
+  steps:
+  - intent: ask_for_student_loan_charges
+  - action: utter_student_loan_charges
+
+- story: student_loan_eligible_sectors
+  steps:
+  - intent: ask_for_student_loan_eligible_sectors
+  - action: utter_student_loan_eligible_sectors
+
+- story: student_loan_eligible_for
+  steps:
+  - intent: ask_for_student_loan_eligible_for
+  - action: utter_student_loan_eligible_for
+
+- story:
+  steps:
+  - intent: ask_for_student_loan_types
+  - action: utter_student_loan_types
+
+- story: protection_loan
+  steps:
+  - intent: ask_for_protection_loan
+  - action: utter_about_protection_loan
+
+- story: protection_loan_charges
+  steps:
+  - intent: ask_for_protection_loan_charges
+  - action: utter_protection_loan_charges
+
+- story: protection_loan_eligible_sectors
+  steps:
+  - intent: ask_for_protection_loan_eligible_sectors
+  - action: utter_protection_loan_eligible_sectors
+
+- story: protection_loan_eligible_for
+  steps:
+  - intent: ask_for_protection_loan_eligible_for
+  - action: utter_protection_loan_eligible_for
+
+- story:
+  steps:
+  - intent: ask_for_protection_loan_types
+  - action: utter_protection_loan_types
